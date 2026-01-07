@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.DependsOnMethodsPractice">
+      <class name="testNG.Assertion_07_12_2025">
         <methods>
-          <include name="smoke"/>
-          <include name="functional"/>
-          <include name="regression"/>
+          <include name="urlVerify"/>
         </methods>
-      </class> <!-- testNG.DependsOnMethodsPractice -->
+      </class> <!-- testNG.Assertion_07_12_2025 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
