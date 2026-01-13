@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-08T10:14:50 IST" name="Default suite" finished-at="2026-01-08T10:14:57 IST" duration-ms="7717">
+  <suite started-at="2026-01-13T09:45:53 IST" name="Default suite" finished-at="2026-01-13T09:45:59 IST" duration-ms="5689">
     <groups>
     </groups>
-    <test started-at="2026-01-08T10:14:50 IST" name="Default test" finished-at="2026-01-08T10:14:57 IST" duration-ms="7717">
-      <class name="testNG.Assertion.Assertion_07_01_2026">
-        <test-method signature="getTitle()[pri:0, instance:testNG.Assertion.Assertion_07_01_2026@7a8c8dcf]" started-at="2026-01-08T10:14:50 IST" name="getTitle" finished-at="2026-01-08T10:14:55 IST" duration-ms="5725" status="PASS">
+    <test started-at="2026-01-13T09:45:53 IST" name="Default test" finished-at="2026-01-13T09:45:59 IST" duration-ms="5689">
+      <class name="POM.POM_FB_Login_13_01_2026.RunnerClass">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:53 IST" name="launchBrowser" finished-at="2026-01-13T09:45:57 IST" duration-ms="3893" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method signature="login()[pri:0, instance:testNG.Assertion.Assertion_07_01_2026@7a8c8dcf]" started-at="2026-01-08T10:14:55 IST" name="login" finished-at="2026-01-08T10:14:57 IST" duration-ms="1941" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:57 IST" name="login" finished-at="2026-01-13T09:45:59 IST" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- testNG.Assertion.Assertion_07_01_2026 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:59 IST" name="closeBrowser" finished-at="2026-01-13T09:45:59 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- POM.POM_FB_Login_13_01_2026.RunnerClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
