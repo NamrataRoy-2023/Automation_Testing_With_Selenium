@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-13T09:45:53 IST" name="Default suite" finished-at="2026-01-13T09:45:59 IST" duration-ms="5689">
+  <suite started-at="2026-01-13T10:46:30 IST" name="Default suite" finished-at="2026-01-13T10:46:46 IST" duration-ms="16496">
     <groups>
     </groups>
-    <test started-at="2026-01-13T09:45:53 IST" name="Default test" finished-at="2026-01-13T09:45:59 IST" duration-ms="5689">
-      <class name="POM.POM_FB_Login_13_01_2026.RunnerClass">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:53 IST" name="launchBrowser" finished-at="2026-01-13T09:45:57 IST" duration-ms="3893" status="PASS">
+    <test started-at="2026-01-13T10:46:30 IST" name="Default test" finished-at="2026-01-13T10:46:46 IST" duration-ms="16496">
+      <class name="POM.POM_OrangeHRMS_Login_13_01_2026.OrangeHRM_RunnerClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:POM.POM_OrangeHRMS_Login_13_01_2026.OrangeHRM_RunnerClass@8297b3a]" started-at="2026-01-13T10:46:30 IST" name="setUp" finished-at="2026-01-13T10:46:37 IST" duration-ms="7492" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="login()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:57 IST" name="login" finished-at="2026-01-13T09:45:59 IST" duration-ms="1480" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAction()[pri:0, instance:POM.POM_OrangeHRMS_Login_13_01_2026.OrangeHRM_RunnerClass@8297b3a]" started-at="2026-01-13T10:46:37 IST" name="loginAction" finished-at="2026-01-13T10:46:44 IST" duration-ms="6686" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM.POM_FB_Login_13_01_2026.RunnerClass@7817fd62]" started-at="2026-01-13T09:45:59 IST" name="closeBrowser" finished-at="2026-01-13T09:45:59 IST" duration-ms="237" status="PASS">
+        </test-method> <!-- loginAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:POM.POM_OrangeHRMS_Login_13_01_2026.OrangeHRM_RunnerClass@8297b3a]" started-at="2026-01-13T10:46:44 IST" name="tearDown" finished-at="2026-01-13T10:46:46 IST" duration-ms="2267" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- POM.POM_FB_Login_13_01_2026.RunnerClass -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- POM.POM_OrangeHRMS_Login_13_01_2026.OrangeHRM_RunnerClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
