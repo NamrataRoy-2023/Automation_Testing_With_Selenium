@@ -3,13 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testNG.TestNG_02_01_2026.TestCase1_02_01_2026">
+      <class name="GroupExecution_14_01_2026.TextFunction_Group">
         <methods>
-          <include name="facebookLogin"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="textFunction"/>
         </methods>
-      </class> <!-- testNG.TestNG_02_01_2026.TestCase1_02_01_2026 -->
+      </class> <!-- GroupExecution_14_01_2026.TextFunction_Group -->
+      <class name="GroupExecution_14_01_2026.FacebookLogin_CSSselector_group">
+        <methods>
+          <include name="cssSelector"/>
+        </methods>
+      </class> <!-- GroupExecution_14_01_2026.FacebookLogin_CSSselector_group -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
